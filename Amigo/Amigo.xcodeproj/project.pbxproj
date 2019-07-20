@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBD1396B22E377E100A58EFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD1396A22E377E100A58EFC /* AppDelegate.swift */; };
+		FBD1396D22E377E100A58EFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD1396C22E377E100A58EFC /* ViewController.swift */; };
+		FBD1397022E377E100A58EFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD1396E22E377E100A58EFC /* Main.storyboard */; };
+		FBD1397222E377E300A58EFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBD1397122E377E300A58EFC /* Assets.xcassets */; };
+		FBD1397522E377E300A58EFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD1397322E377E300A58EFC /* LaunchScreen.storyboard */; };
+		FBD1398022E377E400A58EFC /* AmigoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD1397F22E377E400A58EFC /* AmigoTests.swift */; };
+		FBD1398B22E377E400A58EFC /* AmigoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD1398A22E377E400A58EFC /* AmigoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBD1397C22E377E400A58EFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBD1395F22E377E100A58EFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBD1396622E377E100A58EFC;
+			remoteInfo = Amigo;
+		};
+		FBD1398722E377E400A58EFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBD1395F22E377E100A58EFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBD1396622E377E100A58EFC;
+			remoteInfo = Amigo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FBD1396722E377E100A58EFC /* Amigo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Amigo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBD1396A22E377E100A58EFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBD1396C22E377E100A58EFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FBD1396F22E377E100A58EFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBD1397122E377E300A58EFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBD1397422E377E300A58EFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBD1397622E377E300A58EFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBD1397B22E377E300A58EFC /* AmigoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmigoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBD1397F22E377E400A58EFC /* AmigoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmigoTests.swift; sourceTree = "<group>"; };
+		FBD1398122E377E400A58EFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBD1398622E377E400A58EFC /* AmigoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmigoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBD1398A22E377E400A58EFC /* AmigoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmigoUITests.swift; sourceTree = "<group>"; };
+		FBD1398C22E377E400A58EFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBD1396422E377E100A58EFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBD1397822E377E300A58EFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBD1398322E377E400A58EFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBD1395E22E377E100A58EFC = {
+			isa = PBXGroup;
+			children = (
+				FBD1396922E377E100A58EFC /* Amigo */,
+				FBD1397E22E377E400A58EFC /* AmigoTests */,
+				FBD1398922E377E400A58EFC /* AmigoUITests */,
+				FBD1396822E377E100A58EFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBD1396822E377E100A58EFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBD1396722E377E100A58EFC /* Amigo.app */,
+				FBD1397B22E377E300A58EFC /* AmigoTests.xctest */,
+				FBD1398622E377E400A58EFC /* AmigoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBD1396922E377E100A58EFC /* Amigo */ = {
+			isa = PBXGroup;
+			children = (
+				FBD1396A22E377E100A58EFC /* AppDelegate.swift */,
+				FBD1396C22E377E100A58EFC /* ViewController.swift */,
+				FBD1396E22E377E100A58EFC /* Main.storyboard */,
+				FBD1397122E377E300A58EFC /* Assets.xcassets */,
+				FBD1397322E377E300A58EFC /* LaunchScreen.storyboard */,
+				FBD1397622E377E300A58EFC /* Info.plist */,
+			);
+			path = Amigo;
+			sourceTree = "<group>";
+		};
+		FBD1397E22E377E400A58EFC /* AmigoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBD1397F22E377E400A58EFC /* AmigoTests.swift */,
+				FBD1398122E377E400A58EFC /* Info.plist */,
+			);
+			path = AmigoTests;
+			sourceTree = "<group>";
+		};
+		FBD1398922E377E400A58EFC /* AmigoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FBD1398A22E377E400A58EFC /* AmigoUITests.swift */,
+				FBD1398C22E377E400A58EFC /* Info.plist */,
+			);
+			path = AmigoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBD1396622E377E100A58EFC /* Amigo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBD1398F22E377E400A58EFC /* Build configuration list for PBXNativeTarget "Amigo" */;
+			buildPhases = (
+				FBD1396322E377E100A58EFC /* Sources */,
+				FBD1396422E377E100A58EFC /* Frameworks */,
+				FBD1396522E377E100A58EFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Amigo;
+			productName = Amigo;
+			productReference = FBD1396722E377E100A58EFC /* Amigo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBD1397A22E377E300A58EFC /* AmigoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBD1399222E377E400A58EFC /* Build configuration list for PBXNativeTarget "AmigoTests" */;
+			buildPhases = (
+				FBD1397722E377E300A58EFC /* Sources */,
+				FBD1397822E377E300A58EFC /* Frameworks */,
+				FBD1397922E377E300A58EFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBD1397D22E377E400A58EFC /* PBXTargetDependency */,
+			);
+			name = AmigoTests;
+			productName = AmigoTests;
+			productReference = FBD1397B22E377E300A58EFC /* AmigoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FBD1398522E377E400A58EFC /* AmigoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBD1399522E377E400A58EFC /* Build configuration list for PBXNativeTarget "AmigoUITests" */;
+			buildPhases = (
+				FBD1398222E377E400A58EFC /* Sources */,
+				FBD1398322E377E400A58EFC /* Frameworks */,
+				FBD1398422E377E400A58EFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBD1398822E377E400A58EFC /* PBXTargetDependency */,
+			);
+			name = AmigoUITests;
+			productName = AmigoUITests;
+			productReference = FBD1398622E377E400A58EFC /* AmigoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBD1395F22E377E100A58EFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Karl Pfister";
+				TargetAttributes = {
+					FBD1396622E377E100A58EFC = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					FBD1397A22E377E300A58EFC = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = FBD1396622E377E100A58EFC;
+					};
+					FBD1398522E377E400A58EFC = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = FBD1396622E377E100A58EFC;
+					};
+				};
+			};
+			buildConfigurationList = FBD1396222E377E100A58EFC /* Build configuration list for PBXProject "Amigo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBD1395E22E377E100A58EFC;
+			productRefGroup = FBD1396822E377E100A58EFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBD1396622E377E100A58EFC /* Amigo */,
+				FBD1397A22E377E300A58EFC /* AmigoTests */,
+				FBD1398522E377E400A58EFC /* AmigoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBD1396522E377E100A58EFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBD1397522E377E300A58EFC /* LaunchScreen.storyboard in Resources */,
+				FBD1397222E377E300A58EFC /* Assets.xcassets in Resources */,
+				FBD1397022E377E100A58EFC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBD1397922E377E300A58EFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBD1398422E377E400A58EFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBD1396322E377E100A58EFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBD1396D22E377E100A58EFC /* ViewController.swift in Sources */,
+				FBD1396B22E377E100A58EFC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBD1397722E377E300A58EFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBD1398022E377E400A58EFC /* AmigoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBD1398222E377E400A58EFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBD1398B22E377E400A58EFC /* AmigoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBD1397D22E377E400A58EFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBD1396622E377E100A58EFC /* Amigo */;
+			targetProxy = FBD1397C22E377E400A58EFC /* PBXContainerItemProxy */;
+		};
+		FBD1398822E377E400A58EFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBD1396622E377E100A58EFC /* Amigo */;
+			targetProxy = FBD1398722E377E400A58EFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBD1396E22E377E100A58EFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBD1396F22E377E100A58EFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBD1397322E377E300A58EFC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBD1397422E377E300A58EFC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBD1398D22E377E400A58EFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBD1398E22E377E400A58EFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBD1399022E377E400A58EFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4J7B9732LY;
+				INFOPLIST_FILE = Amigo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Camino.Amigo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBD1399122E377E400A58EFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4J7B9732LY;
+				INFOPLIST_FILE = Amigo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Camino.Amigo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FBD1399322E377E400A58EFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4J7B9732LY;
+				INFOPLIST_FILE = AmigoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Camino.AmigoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amigo.app/Amigo";
+			};
+			name = Debug;
+		};
+		FBD1399422E377E400A58EFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4J7B9732LY;
+				INFOPLIST_FILE = AmigoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Camino.AmigoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amigo.app/Amigo";
+			};
+			name = Release;
+		};
+		FBD1399622E377E400A58EFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4J7B9732LY;
+				INFOPLIST_FILE = AmigoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Camino.AmigoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Amigo;
+			};
+			name = Debug;
+		};
+		FBD1399722E377E400A58EFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4J7B9732LY;
+				INFOPLIST_FILE = AmigoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Camino.AmigoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Amigo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBD1396222E377E100A58EFC /* Build configuration list for PBXProject "Amigo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBD1398D22E377E400A58EFC /* Debug */,
+				FBD1398E22E377E400A58EFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBD1398F22E377E400A58EFC /* Build configuration list for PBXNativeTarget "Amigo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBD1399022E377E400A58EFC /* Debug */,
+				FBD1399122E377E400A58EFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBD1399222E377E400A58EFC /* Build configuration list for PBXNativeTarget "AmigoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBD1399322E377E400A58EFC /* Debug */,
+				FBD1399422E377E400A58EFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBD1399522E377E400A58EFC /* Build configuration list for PBXNativeTarget "AmigoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBD1399622E377E400A58EFC /* Debug */,
+				FBD1399722E377E400A58EFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBD1395F22E377E100A58EFC /* Project object */;
+}
